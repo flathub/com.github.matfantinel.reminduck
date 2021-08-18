@@ -9,19 +9,9 @@
   "finish-args": [
      "--share=ipc",
      "--socket=fallback-x11",
-     "--socket=wayland"
-  ],
-  "cleanup": [
-     "/include",
-     "/lib/pkgconfig",
-     "/man",
-     "/share/doc",
-     "/share/gtk-doc",
-     "/share/man",
-     "/share/pkgconfig",
-     "/share/vala",
-     "*.la",
-     "*.a"
+     "--socket=wayland",
+     "--system-talk-name=org.freedesktop.Accounts",
+     "--filesystem=xdg-config/autostart:create"
   ],
   "modules": [
      {
@@ -31,8 +21,8 @@
             {
                 "type": "git",
                 "url": "https://github.com/matfantinel/reminduck.git",
-                "tag": "v1.5.7",
-                "commit": "6ff22fcd6efd56524d9c1bd9ec339d99d5ed16f2"
+                "tag": "v1.6.1",
+                "commit": "385326eb28beadab3630cc328b8e74f30f926f8c"
             },
             {
               "type" : "patch",
