@@ -1,10 +1,10 @@
 {
   "app-id": "com.github.matfantinel.reminduck",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "19.08",
+  "runtime-version": "21.08",
   "sdk": "org.freedesktop.Sdk",
   "base": "io.elementary.BaseApp",
-  "base-version": "juno-19.08",
+  "base-version": "juno-21.08",
   "command": "com.github.matfantinel.reminduck",
   "finish-args": [
      "--share=ipc",
