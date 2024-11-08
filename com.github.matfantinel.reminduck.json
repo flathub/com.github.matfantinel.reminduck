@@ -10,8 +10,7 @@
      "--share=ipc",
      "--socket=fallback-x11",
      "--socket=wayland",
-     "--system-talk-name=org.freedesktop.Accounts",
-     "--filesystem=xdg-config/autostart:create"
+     "--system-talk-name=org.freedesktop.Accounts"
   ],
   "modules": [
      {
