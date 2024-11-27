@@ -25,8 +25,12 @@
             },
             {
               "type" : "patch",
+              "path" : "fix-appdata.patch"
+            },
+            {
+              "type" : "patch",
               "path" : "elementary-theme.patch"
-          }
+            }
         ]
       }
   ]
